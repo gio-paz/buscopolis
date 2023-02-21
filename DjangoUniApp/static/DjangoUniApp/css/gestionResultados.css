@@ -64,8 +64,23 @@ body {
     background-color: rgb(212, 212, 212);
     border-collapse: collapse;
   }
+
+  .tabla2{
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 10%;
+    text-align: left;
+    background-color: transparent;
+
+  }
+
   th, td{
     padding: 2%;
+  }
+
+  .th2{
+    margin-left: 0%;
+    width: 25%;
   }
 
   thead{
@@ -77,11 +92,6 @@ body {
   tr:nth-child(even){
     background-color: #ddd;
   }
-
-  tr:hover td{
-    background-color: #48c1f0;
-    color: #fff;
-  }
   
   .boton.transparente{
     background-color:transparent;
@@ -89,8 +99,13 @@ body {
   }
   
   .imgHeader{
-    width: 15%;
-    margin-right: 70%;
+    width: 14%;
+    margin-right: 73%;
+  }
+
+  .imgHeader2{
+    width: 100%;
+    margin-right: 0%;
   }
 
   header {
