@@ -51,9 +51,9 @@ body {
     box-shadow: 2px 2px 0px #373c3c;
   }
   
-   .boton.large{
-    font-size: 14px;
-    width: 311px;
+  .boton.large{
+    font-size: 80%;
+    width: 100%;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -67,11 +67,19 @@ body {
 
   .tabla2{
     width: 90%;
-    margin-top: 5%;
-    margin-right: 10%;
     text-align: left;
     background-color: transparent;
+    border-collapse: collapse;
+    padding-top: 25%;
+    margin-top: 7%;
+  }
 
+  .tabla3{
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    border-collapse: collapse;
+    margin-top: 0%;
   }
 
   th, td{
@@ -98,14 +106,16 @@ body {
     box-shadow: 0px 0px 0px #373c3c;
   }
   
-  .imgHeader{
-    width: 14%;
-    margin-right: 73%;
-  }
-
+  
   .imgHeader2{
     width: 100%;
     margin-right: 0%;
+  }
+
+  .imgHeader{
+    width: 15%;
+    margin-right: 40%;
+
   }
 
   header {
@@ -113,7 +123,8 @@ body {
     width: 100%;
     position: fixed;
     z-index: 100;
-    text-align: right;
+    text-align: center;
+    margin-top: -8%;
   }
   
   .container{
@@ -147,3 +158,65 @@ body {
     box-shadow: 2px 2px 0px #373c3c;
     margin-right: 10%;
   }
+
+  
+  .imgfooter{
+    width: 70%;
+  }
+  
+  .titulo{
+    width: 100%;
+  }
+
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.texto-encima{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 10%;
+    width: 95%;
+    height: 45%;
+}
+
+.tamano{
+  width: 65%;
+  margin-left: 5%;
+  height: 74%;
+}
+
+.buscar{
+  text-decoration:none;
+  font-weight: 0;
+  font-size: 100%;
+  color:#333333;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:2%;
+  padding-right:18%;
+  background-color:#ffffff;
+  border-color: #ffffff;
+  border-width: 3%;
+  border-style: initial;
+  border-radius:10px;
+  box-shadow: 2px 2px 2px #373c3c;
+  width: 65%;
+}
+.busquedas{
+  width: 90%;
+  margin-left: 40%;
+}
+
+.resu{
+  text-align: center;
+}
