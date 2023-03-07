@@ -52,17 +52,18 @@ body {
   }
   
    .boton.large{
-    font-size: 80%;
-    width: 100%;
+    font-size: 100%;
+    width: 110%;
     padding-top: 0;
     padding-bottom: 0;
   }
 
   .tabla{
-    width: 100%;
+    width: 90%;
     text-align: left;
     background-color: rgb(212, 212, 212);
     border-collapse: collapse;
+    margin-left: 5%;
   }
 
   .tabla2{
@@ -147,7 +148,8 @@ body {
   }
   
   .imgfooter{
-    width: 70%;
+    width: 60%;
+    height: 15%;
   }
   
   .titulo{
@@ -158,6 +160,7 @@ body {
     position: relative;
     display: inline-block;
     text-align: left;
+    width: 80%;
 }
 .texto-encima{
     position: absolute;
@@ -166,7 +169,7 @@ body {
 }
 .centrado{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -179,4 +182,10 @@ body {
   width: 65%;
   margin-left: 5%;
   height: 74%;
+}
+
+.busquedas{
+  width: 16%;
+  margin-left: 80%;
+  margin-top: -2%;
 }
