@@ -4,6 +4,6 @@ from django.template import Template, Context
 
 def index (request):
    
-    return render(request, 'DjangoUniApp/resultados.html')
+    return render(request, 'DjangoUniApp/perfil2.html')
 
     

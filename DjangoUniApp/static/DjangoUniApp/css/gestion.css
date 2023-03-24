@@ -7,6 +7,10 @@ body {
   background-repeat: no-repeat;
   background-size: 25px 50px;
   background-size: 100% 100%;
+  margin: 0;
+  margin-bottom: 40px;
+  position: relative;
+  height: 83%;
 }
 
 .img2 {
@@ -23,11 +27,6 @@ body {
 .cat2{
   height: 25%;
   width: 35%;
-}
-
-body {
-  margin: 0;
-  margin-bottom: 40px;
 }
 
 .form{
@@ -140,13 +139,13 @@ div .boton:hover{
 
 footer{
   height: 17%;
-  margin-top: 14px;
-  margin-bottom: 5px;
-  padding: 0% 3% 0% 27%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 0% 16% 0% 26%;
   position: absolute;
-  width: 100%;
-  bottom: 0;
-  border-radius: 30px;
+  width: 98%;
+  bottom: 5px;
+  border-radius: 64%;
 }
 
 .imgfooter{
@@ -154,7 +153,7 @@ footer{
 }
 
 .imgfooter2{
-  width: 30px;
+  width: 40px;
   margin-right: 3px;
 }
 
@@ -196,15 +195,13 @@ footer .mariana{
 }
 
 .container1{
-  padding-right: 0%;
   max-width: 100%;
-  margin-top: 12%;
+  margin-top: 0%;
 }
 
 .container2{
-  padding-right: 0%;
-    max-width: 100%;
-    margin-top: -14%;
+  max-width: 100%;
+  margin-top: 11%;
 }
 
 .blanco{

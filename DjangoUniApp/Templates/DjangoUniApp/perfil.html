@@ -1,0 +1,177 @@
+<html {% load static %}>
+
+<head>
+  <title>Buscopolis</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="{% static 'DjangoUniApp/img/logo.jpg'%}">
+    {% load static%}
+
+    <!-- Bootstrap -->
+    <link href="{% static 'DjangoUniApp/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+     <!-- Fonts -->
+    
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+     
+
+    <!-- Styles -->
+    <link href="{% static 'DjangoUniApp/css/gestionPerfil.css'%}" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Heading -->
+  <header>
+    <nav>
+      <ul>
+        <div>
+          <img class="imgHeader" src="{% static 'DjangoUniApp/img/BUSCOPOLI-03.jpg'%}" alt="imagen 2">
+          <a class="boton transparente"  target="blank" ><h2 class="blanco">Mi Perfil</h2>
+          <a href="#"><img src="{% static 'DjangoUniApp/img/logos/user.png'%}" alt=""></a>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="contenedor1">
+      <table class="cuadro2">
+          <tr>
+              <td>
+                  <td>
+                      <table class="cuadro">
+                          <tr style="text-align: center;">
+                              <td >
+                                <h8 class="texto">Nombre Investigador</h8>
+                                <img class="imglinea" src="{% static 'DjangoUniApp/img/imgnuevas/linea.png'%}" />
+                                <img class="imgPerfil" src="{% static 'DjangoUniApp/img/imgnuevas/perfil.png'%}" />
+                              </td>
+                          </tr>
+                              
+                          <tr>
+                              <td>
+                                <img class="imglogo" src="{% static 'DjangoUniApp/img/imgnuevas/logo1.png'%}" />
+                                <h8 class="texto top">Datos Generales</h8>
+                                <img class="imglinea2" src="{% static 'DjangoUniApp/img/imgnuevas/linea.png'%}" />
+                              </td>
+                          </tr>
+                          <tr>   
+                              <td>
+                                <table class="cuadro1">
+                                    <tr>
+                                        <td >
+                                            <img class="imglogo" src="{% static 'DjangoUniApp/img/imgnuevas/logo2.png'%}" />
+                                            <a class="btn btn-outline-light btn-floating m-1 enlaces"  target="blank" href="#"><h8 class="texto1">Datos de Investigador</h8></a>
+                                        </td>
+                                    </tr>                     
+                                </table>
+                              </td>
+                          </tr>
+                          <tr>    
+                              <td>
+                                  <img class="imglogo" src="{% static 'DjangoUniApp/img/imgnuevas/logo3.png'%}" />
+                                  <a class="btn btn-outline-light btn-floating m-1 enlaces"  target="blank" href="#"><h8 class="texto">Productos</h8></a>
+                                  <img class="imglinea2" src="{% static 'DjangoUniApp/img/imgnuevas/linea.png'%}" />
+                              </td>
+                          </tr>    
+                          <tr style="text-align: center;">    
+                            <td>
+                                <a class="btn btn-outline-light btn-floating m-1 enlaces"  target="blank" href="#"><img class="imgSalir" src="{% static 'DjangoUniApp/img/imgnuevas/salir.png'%}" /></a>
+                            </td>
+                        </tr>                       
+                      </table>
+                  </td>
+              </td>
+              <td>
+                <table class="cuadro3">
+                  <tr>
+                      <td >
+                          <h8 class="tex">Nombres</h8>
+                          
+                      </td>
+                  </tr>
+                      
+                  <tr>
+                      <td>
+                        <input class="text" type="text" name="usuario" placeholder="" required>
+                      </td>
+                  </tr>
+                  <tr>    
+                      <td>
+                          <h8 class="tex">Genero</h8>
+                      </td>
+                  </tr>
+                  <tr>    
+                      <td>
+                        <input class="text" type="text" name="usuario" placeholder="" required>
+                      </td>
+                  </tr>
+                  <tr>    
+                      <td>
+                          <h8 class="tex">Fecha de nacimiento</h8>
+                      </td>
+                  </tr>
+                  <tr>    
+                      <td>
+                          <input class="text" type="text" name="usuario" placeholder="" required>
+                      </td>
+                  </tr>
+                  <tr>    
+                      <td>
+                          <h8 class="tex">Grupo de investigacion</h8>
+                      </td>
+                  </tr>
+                  <tr>    
+                      <td>
+                        <input class="text" type="text" name="usuario" placeholder="" required>
+                      </td>
+                  </tr>
+                  <tr>    
+                    <td>
+                        <h8 class="tex">Categoria Minciencias</h8>
+                    </td>
+                </tr>
+                <tr>    
+                    <td>
+                      <input class="text" type="text" name="usuario" placeholder="" required>
+                    </td>
+                </tr>
+                <tr>
+                  <td >
+                      <h8 class="tex">Correo electrónico</h8>
+                      
+                  </td>
+              </tr>
+                  
+              <tr>
+                  <td>
+                    <input class="text" type="text" name="usuario" placeholder="" required>
+                  </td>
+              </tr>
+              <tr>   
+                  <td>
+                      <h8 class="tex">Telefono</h8>
+                  </td>
+              </tr>
+              <tr>    
+                  <td>
+                    <input class="text" type="text" name="usuario" placeholder="" required>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <h8 class="tex">Dirección</h8>
+                  </td>
+              </tr>
+              <tr>    
+                  <td>
+                      <input class="text" type="text" name="usuario" placeholder="" required>
+                  </td>
+              </tr>
+              </table>
+              </td>
+          </tr>
+      </table>    
+  </div>     
+</body>
+</html>
+

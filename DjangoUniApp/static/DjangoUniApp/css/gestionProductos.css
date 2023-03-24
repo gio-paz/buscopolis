@@ -1,6 +1,6 @@
 body {
     font-family: 'Lora';
-    background: url("../img/fondo3.jpeg");
+    background: url("../img/fondoResultado.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -15,13 +15,6 @@ body {
 
   }
 
-  
-  .cat2{
-    height: 25%;
-    width: 35%;
-    border-top: 50%;
-  }
-  
   body {
     margin: 0;
     margin-bottom: 40px;
@@ -51,32 +44,11 @@ body {
     box-shadow: 2px 2px 0px #373c3c;
   }
   
-   .boton.large{
-    font-size: 100%;
-    width: 110%;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
   .tabla{
-    width: 90%;
+    width: 100%;
     text-align: left;
     background-color: rgb(212, 212, 212);
     border-collapse: collapse;
-    margin-left: 5%;
-  }
-
-  .tabla2{
-    width: 65%;
-    text-align: left;
-    background-color: transparent;
-    border-collapse: collapse;
-    padding-top: 25%;
-    margin-top: 7%;
-  }
-
-  th, td{
-    padding: 2%;
   }
 
   thead{
@@ -85,24 +57,20 @@ body {
     color: #fff;
   }
 
-  tr:nth-child(even){
-    background-color: #ddd;
-  }
-
-  tr:hover td{
-    background-color: #48c1f0;
-    color: #fff;
-  }
-  
   .boton.transparente{
     background-color:transparent;
     box-shadow: 0px 0px 0px #373c3c;
-    margin-left: 30%;
   }
   
+  
+  .imgHeader2{
+    width: 100%;
+    margin-right: 0%;
+  }
+
   .imgHeader{
     width: 15%;
-    margin-right: 30%;
+    margin-right: 40%;
 
   }
 
@@ -112,12 +80,7 @@ body {
     position: fixed;
     z-index: 100;
     text-align: center;
-    margin-top: -8%;
-  }
-  
-  .container{
-    padding-right: 15px;
-    border-top: 50%;
+    margin-top: 0%;
   }
   
   .blanco{
@@ -125,24 +88,6 @@ body {
     color: #fff;
     width: 100%;
     margin: 10%;
-  }
-
-  .buscar{
-    text-decoration:none;
-    font-weight: 0;
-    font-size: 100%;
-    color:#333333;
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left:2%;
-    padding-right:18%;
-    background-color:#ffffff;
-    border-color: #ffffff;
-    border-width: 3%;
-    border-style: initial;
-    border-radius:10px;
-    box-shadow: 2px 2px 2px #373c3c;
-    width: 65%;
   }
 
   .botonHeader{
@@ -164,27 +109,41 @@ body {
     box-shadow: 2px 2px 0px #373c3c;
     margin-right: 10%;
   }
+
   
   .imgfooter{
     width: 60%;
     height: 15%;
   }
-  
-  .titulo{
-    width: 100%;
+
+  .imgf1{
+    width: 115%;
   }
 
-  .contenedor{
+  .imgf2{
+    width: 380%;
+  }
+
+  .imgf3{
+    width: 100%;
+  }
+  
+.contenedor{
     position: relative;
     display: inline-block;
     text-align: left;
     width: 80%;
+    margin-top: 8%;
 }
-.texto-encima{
-    position: absolute;
-    top: 10%;
-    left: 10%;
+
+.contenedor1{
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-top: 0%;
 }
+
 .centrado{
     position: absolute;
     top: 40%;
@@ -202,8 +161,103 @@ body {
   height: 74%;
 }
 
+.buscar{
+  text-decoration:none;
+  font-weight: 0;
+  font-size: 100%;
+  color:#333333;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:2%;
+  padding-right:18%;
+  background-color:#ffffff;
+  border-color: #ffffff;
+  border-width: 3%;
+  border-style: initial;
+  border-radius:10px;
+  box-shadow: 2px 2px 2px #373c3c;
+  width: 65%;
+}
+
+.buscar1{
+  text-decoration:none;
+  font-weight: 0;
+  font-size: 100%;
+  color:#333333;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:2%;
+  padding-right:18%;
+  background-color:#ffffff;
+  border-color: #ffffff;
+  border-width: 3%;
+  border-style: initial;
+  border-radius:10px;
+  box-shadow: 2px 2px 2px #373c3c;
+  width: 65%;
+}
+
+.blanco{
+  background-color: transparent;
+  color: #0f3b5e;
+  width: 100%;
+  margin: 10%;
+}
+
+.blanco1{
+  background-color: transparent;
+  color: #0f3b5e;
+  width: 100%;
+  margin: 3%;
+}
+
 .busquedas{
   width: 16%;
-  margin-left: 80%;
+  margin-left: 72%;
   margin-top: -2%;
 }
+
+.cuadro{
+    width: 90%;
+    text-align: left;
+    background-color: #f2f4f3;
+    border-collapse: collapse;
+    margin-left: 0%;
+    margin-top: 3%; 
+    border-radius:30px;
+    box-shadow: 10px 10px 9px #e3eef2;
+  }
+
+  .cuadro2{
+    width: 90%;
+    margin-left: 5%;
+  }  
+
+  .buscar1.large{
+    font-size: 100%;
+    width: 250%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: -220%;
+    margin-top: 15%;
+  }
+
+  .tdtama{
+    width: 10%;
+  }
+
+  .buscar.large{
+    font-size: 100%;
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .buscar.large1{
+    font-size: 550%;
+    width: 95%;
+    margin-left: 1%;
+  }
+
+  .blanco.top{
+    margin-top: 15%;
+  }

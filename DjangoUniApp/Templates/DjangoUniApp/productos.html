@@ -1,0 +1,187 @@
+<html {% load static %}>
+
+<head>
+  <title>Buscopolis</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="{% static 'DjangoUniApp/img/logo.jpg'%}">
+    {% load static%}
+
+    <!-- Bootstrap -->
+    <link href="{% static 'DjangoUniApp/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+     <!-- Fonts -->
+    
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+     
+
+    <!-- Styles -->
+    <link href="{% static 'DjangoUniApp/css/gestionProductos.css'%}" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Heading -->
+  <header>
+    <nav>
+      <ul>
+        <div>
+            <img class="imgHeader" src="{% static 'DjangoUniApp/img/BUSCOPOLI-03.jpg'%}" alt="imagen 2">
+            <a class="boton transparente"  target="blank" ><h2 class="blanco">Mi Perfil</h2>
+            <a href="#"><img class="imgfooter3" src="{% static 'DjangoUniApp/img/logos/user.png'%}" alt=""></a>
+        </div>
+      </ul>
+      <ul>
+        <div>
+          <fieldset class="busquedas">
+            <input class="buscar" type="search" id="search" placeholder="">
+            <a class="btn enlaces busqueda " href="#" target="_blank">
+            <img class="imgfooter2" src="{% static 'DjangoUniApp/img/logos/lupa.png'%}" alt=""></a>
+          </fieldset>
+        </div>
+      </ul>
+    </nav>
+  </header> 
+        <div class="contenedor">
+          <img class="imgfooter" src="{% static 'DjangoUniApp/img/imgnuevas/piezaletrero .png'%}" />
+          <div class="centrado"><h1 class="tamano">MIS PRODUCTOS</h1></div>
+        </div>
+        <div class="contenedor1">
+            <table class="cuadro2">
+                <tr>
+                    <td>
+                        <td>
+                            <table class="cuadro">
+                                <tr>
+                                    <td >
+                                        <h8 class="blanco">Información general del proyecto de investigación</h8>
+                                        <img class="imgf1" src="{% static 'DjangoUniApp/img/imgnuevas/linea.png'%}" />
+                                    </td>
+                                </tr>
+                                    
+                                <tr>
+                                    <td>
+                                        <h8 class="blanco top">Código Proyecto</h8>
+                                    </td>
+                                    <td >
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>   
+                                    <td>
+                                        <h8 class="blanco">Nombre Proyecto</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Código del grupo</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Facultad</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Programa</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Grupo de Investigación</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Fercha Aprovación</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Estado </h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                                <tr>    
+                                    <td>
+                                        <h8 class="blanco">Fecha Finalizacion</h8>
+                                    </td>
+                                    <td>
+                                        <input class="buscar1 large" type="search" id="search" placeholder="">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </td>
+                    <td>
+                        <table class="cuadro">
+                            <tr>
+                                <td><h8 class="blanco">Tipo de Proyecto </h8><img class="imgf2" src="{% static 'DjangoUniApp/img/imgnuevas/linea.png'%}" /></td>
+                            </tr>
+                            <tr>
+                                <td><h8 class="blanco1">Investigación Científica</h8></td>
+                            </tr>
+                            <tr>
+                                <td style="width:26%" ><input class="check" type="checkbox" id="search" placeholder=""></td>
+                                <td><h8 class="blanco tama">Investigación Aplicada</h8></td>
+                                <td><input class="check2" type="checkbox" id="search" placeholder=""></td>
+                                <td><h8 class="blanco tama2">Desarrollo Tecnológico</h8></td>
+                                <td><input class="check3" type="checkbox" id="search" placeholder=""></td>
+                                <td><h8 class="blanco tama3">En Producto</h8></td>
+                            </tr>
+                            <tr>
+                                <td><input class="check" type="checkbox" id="search" placeholder=""></td>
+                                <td><h8 class="blanco tama">Incestigación Básica</h8></td>
+                                <td><input class="check2" type="checkbox" id="search" placeholder=""></td>
+                                <td><h8 class="blanco tama2">Desarrollo Experimental</h8></td>
+                                <td><input class="check3" type="checkbox" id="search" placeholder=""></td>
+                                <td><h8 class="blanco tama3">En Proceso</h8></td>
+                            </tr>
+                        </table>
+                        <table class="cuadro">    
+                            <tr>
+                                <td><h8 class="blanco">Objetivos del Proyecto</h8><img class="imgf3" src="{% static 'DjangoUniApp/img/imgnuevas/linea.png'%}" /></td>
+                            </tr>
+                            <tr>
+                                <td><h8 class="blanco">Objetivo General</h8></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="buscar large" type="search" id="search" placeholder="">
+                                </td> 
+                            </tr>
+                            <tr>
+                                <td><h8 class="blanco">Objetivo Específico</h8></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="buscar large1" type="search" id="search" placeholder="">
+                                </td>
+                            </tr> 
+                        </table>
+                    </td>
+                </tr>
+            </table>    
+        </div>    
+</body>
+</html>
